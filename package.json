@@ -1,0 +1,16 @@
+{
+    "author": {
+        "email": "francesco.orsenigo@gmail.com",
+        "name": "Francesco Orsenigo",
+        "url": "http://github.com/xarvh"
+    },
+    "devDependencies": {
+        "coffee-script": "1.9.x"
+    },
+    "license": "GPL v3",
+    "name": "reactest",
+    "readmeFilename": "README.md",
+    "scripts": {
+        "test": "mocha -t 100s && jshint index.js"
+    }
+}

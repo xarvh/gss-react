@@ -1,0 +1,36 @@
+<html>
+<head>
+  <script src="https://fb.me/react-0.13.2.js"></script>
+  <script src="https://fb.me/JSXTransformer-0.13.2.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.0/lodash.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/cdn.thegrid.io/gss/v2.0.0/v2.0.0/gss.js"></script>
+
+  <script type="text/javascript" src="q.js"></script>
+  <script type="text/javascript">window.engine = new GSS(document);</script>
+
+  <style type="text/css">
+    .a4 { border: 1px dotted black; }
+  </style>
+
+  <style type="text/gss">
+    .a4[width] == ::window[width] * 0.98;
+    .a4[height] == .a4[width] * 210/297;
+
+    .row[width] == .a4[width];
+    @v (.head-ruler)(.char-title)(.main-row)(.foot-ruler)
+
+
+    .pool-marker[width] >= 20;
+    @h |(.pool-marker)...| in(::window) gap(20);
+
+
+  </style>
+
+</head>
+<body>
+
+  <div id="content"></div>
+
+</body>
+</html>
